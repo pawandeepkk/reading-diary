@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, Image, ScrollView } from 'react-native';
 
-export default function App() {
+const IndexScreen = () => {
   return (
     <View style={styles.container}>
       <Text>Pawan</Text>
@@ -19,3 +19,5 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
+export default IndexScreen;
